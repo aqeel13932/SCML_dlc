@@ -1,0 +1,64 @@
+name: SCML
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.8.24=py35_1
+  - cudatoolkit=9.2=0
+  - cudnn=7.2.1=cuda9.2_0
+  - libedit=3.1.20170329=h6b74fdf_2
+  - libffi=3.2.1=hd88cf55_4
+  - libgcc-ng=8.2.0=hdf63c60_1
+  - libstdcxx-ng=8.2.0=hdf63c60_1
+  - ncurses=6.1=hf484d3e_0
+  - openssl=1.0.2p=h14c3975_0
+  - patchelf=0.9=hf484d3e_2
+  - pip=10.0.1=py35_0
+  - python=3.5.6=hc3d631a_0
+  - readline=7.0=h7b6447c_5
+  - setuptools=40.2.0=py35_0
+  - sqlite=3.24.0=h84994c4_0
+  - tk=8.6.8=hbc83047_0
+  - wheel=0.31.1=py35_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=ha838bed_2
+  - pip:
+    - absl-py==0.4.1
+    - astor==0.7.1
+    - cffi==1.11.5
+    - chardet==3.0.4
+    - cycler==0.10.0
+    - cython==0.28.5
+    - future==0.16.0
+    - gast==0.2.0
+    - glfw==1.7.0
+    - grpcio==1.15.0
+    - gym==0.10.5
+    - idna==2.7
+    - imageio==2.4.1
+    - kiwisolver==1.0.1
+    - markdown==2.6.11
+    - matplotlib==2.2.3
+    - mujoco-py==1.50.1.56
+    - numpy==1.14.5
+    - pandas==0.23.4
+    - pillow==5.2.0
+    - protobuf==3.6.1
+    - pycparser==2.18
+    - pyglet==1.3.2
+    - pyopengl==3.1.0
+    - pyopengl-accelerate==3.1.0
+    - pyparsing==2.2.0
+    - python-dateutil==2.7.3
+    - pytz==2018.5
+    - requests==2.19.1
+    - scipy==1.1.0
+    - seaborn==0.9.0
+    - six==1.11.0
+    - tensorboard==1.10.0
+    - tensorflow-gpu==1.10.1
+    - termcolor==1.1.0
+    - urllib3==1.23
+    - werkzeug==0.14.1
+prefix: /home/aqeel/miniconda3/envs/SCML
+
