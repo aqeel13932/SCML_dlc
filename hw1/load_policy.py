@@ -56,3 +56,5 @@ def load_policy(filename):
     a_ba = build_policy(obs_bo)
     policy_fn = tf_util.function([obs_bo], a_ba)
     return policy_fn
+def load_bc_policy(filename):
+    pass
